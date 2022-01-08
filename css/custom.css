@@ -1,0 +1,48 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+
+#slider{
+	background:url("../images/Banner-Top-Page-Desktop-1366px.jpg");
+	background-repeat:no-repeat;
+	background-size: 100%;
+	background-size: cover;
+	background-position: center;
+}
+.text-main{
+	color:#0f387d !important;
+}
+.search-filter-btn button{
+	border:1px solid #0f387d;
+	outline:none;
+	padding: 10px 12px;
+	margin-left: 10px;
+	border-radius: 5px;
+	background:#fff;
+	color: #0f387d;
+}
+.search-filter-btn button:first-child{
+	margin-left: 0;
+}
+.search-filter-btn button.web{
+	background-color:#0f387d;
+	color:white;
+}
+.search-filter-btn button.guide{
+	background-color:#c61d20;
+	color:white;
+	border-color: #c61d20;
+}
+
+.search-btn,.search-btn:hover{
+	background-color:#203972;
+	color:white;
+}
+.search-input{
+	border: 1.5px solid #0f387d !important;
+	border-right: none !important;
+}
